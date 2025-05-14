@@ -12,3 +12,5 @@ python imu_ble_receiver.py
    ```
 
 
+## Known issues
+One thing to watch out for is the name that the peripheral device broadcasts versus what the python script is looking for. My Arduino was broadcasting as 'arduino' even though it was 'IMUPeripheral' in the arduino sketch. It is easy to see what the python script is looking for in the scripts inital setup phase - it prints the BLE list in terminal.
