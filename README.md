@@ -4,11 +4,11 @@ Arduino sketch and Python script to transmit Gyroscope and Accelerometer data vi
 ## Python Set up:
 
 Make sure Python3 is installed then run:
-'''
+   ```
 pip3 install bleak
-'''
-'''
+   ```
+   ```
 python imu_ble_receiver.py
-'''
+   ```
 
 
